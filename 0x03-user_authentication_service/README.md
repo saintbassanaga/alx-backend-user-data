@@ -203,7 +203,7 @@ This project contains tasks for learning to create a user authentication service
     + `update_password(email: str, reset_token: str, new_password: str) -> None`.
   + Copy the following code at the end of the `main` module:
     ```python
-    EMAIL = "guillaume@holberton.io"
+    EMAIL = "saintbassanaga01@gmail.com.tech"
     PASSWD = "b4l0u"
     NEW_PASSWD = "t4rt1fl3tt3"
 
