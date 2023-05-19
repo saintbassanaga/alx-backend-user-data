@@ -63,6 +63,8 @@ class DB:
             raise NoResultFound()
         return result
 
+    #implement the DB.update_user method that takes as argument a required user_id integer and arbitrary keyword arguments, and returns None.
+
     def update_user(self, user_id: int, **kwargs) -> None:
         """Updates a user based on a given id.
         """
